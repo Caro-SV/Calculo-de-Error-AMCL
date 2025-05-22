@@ -1,4 +1,4 @@
-<h1 align="center">Cálculo del Error de Posición y Orientación con AMCL en Gazebo</h1>
+<h1 align="center">Cálculo del Error de Posición y Orientación en AMCL en Gazebo</h1>
 
 <p align="center">
   <i>Este nodo ROS2 compara la posición y orientación estimadas por AMCL con la posición real del modelo en el entorno simulado de Gazebo.</i>
@@ -50,22 +50,10 @@
   <img src="https://github.com/carolinasernav/Calculo-de-Error-AMCL/blob/c986413cfcef28bc9f3f318841f1b905c9a27cbe/Resultados%20en%20Consola.png" alt="Visual de funcionamiento"/>
 </p>
 
-<h2>📂 Estructura del Nodo</h2>
+<h2>Estructura del Nodo</h2>
 <ul>
   <li><code>amcl_callback</code>: Guarda la pose estimada por AMCL.</li>
   <li><code>gz_callback</code>: Obtiene la pose real del robot desde Gazebo.</li>
   <li><code>calculo_error_posicion()</code>: Retorna el error en metros.</li>
   <li><code>calcular_error_orientacion()</code>: Retorna el error en grados.</li>
-</ul>
-
-<h2>📜 Licencia</h2>
-
-<p>Este proyecto está licenciado bajo los términos de la MIT License.</p>
-
-<h2>🤝 Contribuciones</h2>
-
-<p>Si otro desarrollador ha participado en este proyecto, se recomienda:</p>
-<ul>
-  <li>Incluirlo en la sección de <code>Contributors</code> del README.</li>
-  <li>Agregarlo como colaborador en GitHub desde la pestaña "Settings" → "Collaborators".</li>
 </ul>
