@@ -32,7 +32,7 @@
 
 <p><strong>2. Lanza la navegación con AMCL y el mapa del entorno:</strong></p>
 <pre style="background-color:#e8f5e9;padding:10px;border-radius:5px"><code>ros2 launch nav2_bringup localization_launch.py \
-    map:=/ruta/a/tu_mapa.yaml \
+    map:=/ruta/a/mapa_turtlebot3.yaml \
     use_sim_time:=true</code></pre>
 
 <p><strong>3. Ejecuta el nodo de comparación:</strong></p>
