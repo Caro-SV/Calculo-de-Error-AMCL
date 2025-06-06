@@ -35,10 +35,6 @@
     map:=/ruta/a/tu_mapa.yaml \
     use_sim_time:=true</code></pre>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7f609d15-39ee-433d-95e1-294880b83582" alt="Visual de funcionamiento"/>
-</p>
-
 <p><strong>3. Ejecuta el nodo de comparación:</strong></p>
 <pre style="background-color:#e8f5e9;padding:10px;border-radius:5px"><code>ros2 run <nombre_paquete> AMCL</code></pre>
 
@@ -61,18 +57,11 @@
 
 <p>Estos datos son útiles para validar la calidad del mapa, la configuración de sensores (como el LiDAR), y los parámetros del algoritmo AMCL.</p>
 
-<p>Ejemplo de salida en consola:</p>
-
-<pre style="background-color:#f3e5f5;padding:10px;border-radius:5px"><code>[INFO] [NavComparisonNode]: Error de posición: 0.047 m | Error de orientación: 3.25°</code></pre>
-
-<p>En la imagen inferior se muestra una captura de los resultados que se imprimen periódicamente en consola mientras el robot navega:</p>
+<p>A continuación se muestra el funcionamiento del nodo mientras el robot navega por el mapa:</p>
 
 <p align="center">
-  <img src="https://github.com/carolinasernav/Calculo-de-Error-AMCL/blob/c986413cfcef28bc9f3f318841f1b905c9a27cbe/Resultados%20en%20Consola.png" alt="Resultados en consola"/>
+  <img src="https://github.com/user-attachments/assets/7f609d15-39ee-433d-95e1-294880b83582" alt="Visual de funcionamiento"/>
 </p>
-
-<h3>Conclusión</h3>
-<p>Un error de posición menor a 0.05 m y un error de orientación por debajo de 5° suele indicar una localización adecuada para la mayoría de tareas de navegación en entornos simulados. Sin embargo, errores mayores pueden sugerir problemas en el mapa, la calibración de sensores o la configuración del nodo AMCL.</p>
 
 <h2>Estructura del Nodo</h2>
 <ul>
