@@ -37,7 +37,7 @@
     use_sim_time:=true</code></pre>
     
 <p align="center">
-  <img src="https://github.com/carolinasernav/Calculo-de-Error-AMCL/blob/c986413cfcef28bc9f3f318841f1b905c9a27cbe/Robot%20AMCL.png" alt="Visual de funcionamiento"/>
+  <img src="https://github.com/user-attachments/assets/7f609d15-39ee-433d-95e1-294880b83582" alt="Visual de funcionamiento"/>
 </p>
 
 <p><strong>3. Ejecuta el nodo de comparación:</strong></p>
