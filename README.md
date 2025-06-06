@@ -39,11 +39,6 @@
 <pre style="background-color:#e8f5e9;padding:10px;border-radius:5px"><code>ros2 run <nombre_paquete> AMCL</code></pre>
 
 <p><strong>4. Por último, mueve el robot con <code>/Nav2 Goal</code> a una ubicación objetivo</strong></p>
-<p>Los resultados se publicarán en la consola de la siguiente manera:</p>
-
-<p align="center">
-  <img src="https://github.com/carolinasernav/Calculo-de-Error-AMCL/blob/c986413cfcef28bc9f3f318841f1b905c9a27cbe/Resultados%20en%20Consola.png" alt="Visual de funcionamiento"/>
-</p>
 
 <h2>Resultados</h2>
 
@@ -56,6 +51,12 @@
 </ul>
 
 <p>Estos datos son útiles para validar la calidad del mapa, la configuración de sensores (como el LiDAR), y los parámetros del algoritmo AMCL.</p>
+
+<p>En la imagen inferior se muestra una captura de los resultados que se imprimen periódicamente en consola mientras el robot navega:</p>
+
+<p align="center">
+  <img src="https://github.com/carolinasernav/Calculo-de-Error-AMCL/blob/c986413cfcef28bc9f3f318841f1b905c9a27cbe/Resultados%20en%20Consola.png" alt="Resultados en consola"/>
+</p>
 
 <p>A continuación se muestra el funcionamiento del nodo mientras el robot navega por el mapa:</p>
 
